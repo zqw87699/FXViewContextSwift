@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import FXCommonSwift
 
 /**
  *  线条绘制位置

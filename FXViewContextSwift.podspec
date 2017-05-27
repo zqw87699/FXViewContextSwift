@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FXViewContextSwift"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "FX视图展示框架"
 
   s.homepage     = "https://github.com/zqw87699/FXViewContextSwift"
@@ -31,6 +31,7 @@ end
 
 s.subspec 'Extension' do |extension|
     extension.source_files = 'Classes/Extension/*.{swift}'
+    extension.dependency 'FXCommonSwift/Base'
 end
 
 end
