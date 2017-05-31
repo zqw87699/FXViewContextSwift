@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import SnapKit
+import ReactiveSwift
 
 public class FXViewContext {
 
