@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 import SnapKit
 import ReactiveSwift
+import ReactiveCocoa
 
 public class FXViewContext {
 

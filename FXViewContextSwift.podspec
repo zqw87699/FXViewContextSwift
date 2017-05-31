@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FXViewContextSwift"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "FX视图展示框架"
 
   s.homepage     = "https://github.com/zqw87699/FXViewContextSwift"
@@ -27,6 +27,7 @@ s.subspec 'Core' do |core|
     core.source_files = 'Classes/Core/*.{swift}'
     core.dependency 'SnapKit', '3.2.0'
     core.dependency 'ReactiveSwift','1.1.1'
+    core.dependency 'ReactiveCocoa','5.0.2'
 end
 
 s.subspec 'Extension' do |extension|
